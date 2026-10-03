@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Putra Erlang Duawa</title>
+  <link rel="stylesheet" href="tugas1CSS.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="tugas1.js"></script>
+</head>
+
+<body>
+  <div class="page">
+
+    <header>
+      <h1>Putra Erlang Duawa</h1>
+    </header>
+
+    <nav aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#hobi">Hobi</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#jadwal">Jadwal</a>
+      <a href="#tautan">Profil</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main>
+
+      <!-- Tentang Saya -->
+      <section id="tentang" class="profile-grid">
+
+        <img
+          class="profile-photo"
+          src="putra.png"
+          alt="Foto profil Putra Erlang Duawa"
+        >
+
+        <div>
+          <h2>Tentang Saya</h2>
+
+          <p>
+            Saya adalah Putra Erlang Duawa, seorang mahasiswa yang memiliki
+            ketertarikan besar terhadap dunia kreatif dan pengembangan game.
+            Saya senang menggabungkan kreativitas dengan teknologi untuk
+            menciptakan karya yang menarik dan memiliki karakter tersendiri.
+          </p>
+
+          <p>
+            Saya memiliki ketertarikan dalam game development, khususnya
+            pada pembuatan visual 2D dan pengembangan konsep cerita atau lore
+            dalam sebuah game. Saya senang memikirkan bagaimana sebuah karakter,
+            dunia, cerita, dan visual dapat saling terhubung sehingga menghasilkan
+            pengalaman bermain yang menarik bagi pemain.
+          </p>
+
+          <p>
+            Selain game development, saya juga tertarik pada dunia content
+            creation dan video editing. Saya terus mengembangkan kemampuan
+            kreatif saya melalui berbagai kegiatan seperti menggambar,
+            membuat konten, mengedit video, serta menjaga kebugaran dengan
+            melakukan gym.
+          </p>
+        </div>
+
+      </section>
+
+      <!-- Hobi -->
+      <section id="hobi">
+
+        <h2>Hobi Saya</h2>
+
+        <p>
+          Di waktu luang, saya suka melakukan beberapa kegiatan yang
+          berhubungan dengan kreativitas, hiburan, dan kebugaran.
+        </p>
+
+        <ul>
+          <li>Menggambar</li>
+          <li>Menjadi Content Creator</li>
+          <li>Edit Video</li>
+          <li>Gym</li>
+        </ul>
+
+      </section>
+
+      <!-- Keahlian -->
+      <section id="keahlian">
+
+        <h2>Keahlian</h2>
+
+        <p>
+          Saya memiliki beberapa keahlian yang berhubungan dengan
+          pengembangan game dan bidang kreatif, yaitu:
+        </p>
+
+        <ul>
+          <li>
+            <strong>Game Development</strong> –
+            Memahami proses pembuatan game mulai dari konsep,
+            gameplay, hingga pengembangan elemen dalam game.
+          </li>
+
+          <li>
+            <strong>2D Artist</strong> –
+            Membuat dan mengembangkan aset visual 2D untuk kebutuhan
+            karakter, environment, maupun elemen pendukung dalam game.
+          </li>
+
+          <li>
+            <strong>Game Lore & Story Concept</strong> –
+            Memiliki kemampuan dalam memikirkan konsep cerita,
+            latar belakang karakter, dunia game, serta lore yang
+            dapat membuat sebuah game memiliki identitas dan cerita
+            yang menarik.
+          </li>
+
+          <li>
+            <strong>Video Editing</strong> –
+            Mengedit video untuk kebutuhan content creation dan
+            menghasilkan konten yang lebih menarik untuk ditonton.
+          </li>
+        </ul>
+
+      </section>
+
+      <!-- Jadwal -->
+      <section id="jadwal">
+
+        <h2>Jadwal Kuliah</h2>
+        <button id="toggleJadwal" type="button">Tampilkan Jadwal</button>
+        <table id="jadwalTable" style="display: none;">
+          <thead>
+            <tr>
+              <th scope="col">Hari</th>
+              <th scope="col">Mata Kuliah</th>
+              <th scope="col">Jam</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Senin</td>
+              <td>Pemrograman Web</td>
+              <td>15.30 - 18.30</td>
+            </tr>
+
+            <tr>
+              <td>Rabu</td>
+              <td>Global TIK</td>
+              <td>08.30 - 10.30</td>
+            </tr>
+
+            <tr>
+              <td>Jumat</td>
+              <td>Kewarganegaraan</td>
+              <td>09.00 - 13.40</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </section>
+
+      <!-- Tautan Profil -->
+      <section id="tautan">
+
+        <h2>Tautan Profil</h2>
+
+        <p>
+          Kunjungi tautan berikut untuk melihat profil profesional
+          dan karya yang telah saya buat.
+        </p>
+
+        <div class="links">
+
+          <a
+            class="button-link"
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            class="button-link"
+            href="https://github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </section>
+
+      <!-- Kontak -->
+      <section id="kontak">
+
+        <h2>Kontak Saya</h2>
+
+        <form id="kontakForm" action="#" method="post">
+
+          <label for="nama">
+            Nama
+
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="Masukkan nama"
+              required
+            >
+          </label>
+
+          <label for="email">
+            Email
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="nama@email.com"
+              required
+            >
+          </label>
+
+          <label for="pesan">
+            Pesan
+
+            <textarea
+              id="pesan"
+              name="pesan"
+              placeholder="Tulis pesanmu di sini"
+              required
+            ></textarea>
+
+          </label>
+
+          <button type="submit">Kirim</button>
+
+        </form>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <p>
+        (c) 2026 Putra Erlang Duawa. Semua hak dilindungi.
+      </p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
